@@ -1,0 +1,19 @@
+# Secretos y datos de conexión: nunca al repositorio
+.env
+.env.*
+!.env.example
+README.md
+
+# Documentos internos del grupo (especificación, diseños y archivos del cliente)
+*.docx
+stitch_inteligencianegocios/
+datos/
+*.xlsx
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
